@@ -1,0 +1,42 @@
+.pickr{
+//    background-color:#ddd;
+}
+
+.pcr-slider {
+    width:2em !important;
+    border-radius:0em !important;
+}
+
+.pcr-color-chooser {
+    margin-left:3em !important;
+    margin-right:2em !important;
+}
+
+.pcr-save {
+    width:100% !important;
+    height:3em !important;;
+}
+
+.pcr-button {
+    width:600px !important;
+    height:4em !important;
+}
+
+.pcr-app .pcr-selection .pcr-picker {
+    width:3em;
+    height:3em;
+}
+
+.pcr-app .pcr-swatches {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,3em);
+    text-align:center;
+}
+
+.pcr-app *{
+    background-color: #aaa;
+}
+.pcr-app{
+    background-color: #aaa;
+}

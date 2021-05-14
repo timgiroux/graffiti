@@ -1,0 +1,55 @@
+button {
+    margin-bottom:2em;
+    padding:1em;
+    width:100%;
+    font-size:12pt;
+    background-color:#ddd;
+}
+
+
+#menu-items {
+    display:inline-block;
+    width:600px;
+}
+
+
+#picker-container{
+    display:inline-block;
+    padding:1em;
+}
+
+#draw-ui{
+    text-align:center;
+}
+
+canvas {
+    margin:1em;
+    position:relative;
+    background-color:#eee;
+    margin-bottom:3em;
+}
+
+
+#split-row {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    grid-column-gap:2em;
+    margin-bottom:1em;
+}
+
+
+#clear-button {
+    margin-bottom:0em;
+}
+
+#submit-text{
+    margin:0em;
+}
+
+#graffiti-link {
+    text-decoration:none;
+
+    margin-top:2em;
+
+}
