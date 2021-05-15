@@ -50,12 +50,13 @@ $(document).ready(function(){
     clear_button.addEventListener('click', clearCanvas);
     submit_button.addEventListener('click', submitDrawing);
     jq_can.on('mousemove touchmove touchstart mousedown', paintCanvas);
-    jq_can.on('mouseup', endBrushStroke);
+    jq_can.on('mouseup touchend touchcancel touchleave', endBrushStroke);
 
     var prevX = -1;
     var prevY = -1;
 
     function endBrushStroke(e) {
+      console.log("endbrushstroke");
       prevX = -1;
       prevY = -1;
     }
